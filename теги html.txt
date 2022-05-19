@@ -1,0 +1,43 @@
+﻿<header></header> шапка
+<nav></nav> меню, навигация
+<div></div> блок, контейнер
+<footer></footer> подвал
+
+
+
+<h1></h1>..<h6></h6>  заголовок
+<p></p> параграф
+<span></span> строчный тег выделение части текста
+<a target="_blank" href="путь"> ссылка   </a>   ссылка
+<img src="путь" alt=""> картинка
+<ul> <li></li> </ul> беспорядочный список
+<ol> <li></li> </ol> упорядоченый список
+<br> перевод строки
+
+
+<form></form> оболочка формы
+action="_#_" сервер
+method="get" метод отправки данных стандартный
+method="post" enctype="multipart/form-data" скрытая передача данных
+
+disabled  отключает форму кроме тега <form></form>
+tabindex="1"  порядок переключения через TAB
+
+
+<input placeholder="" type="тип" name="имя" value="значение"> форма ввода
+type="text"  
+type="tel" переключение ввода на цифры
+type="password"   ввод пароля
+type="radio"    переключаетль, радиокнопки
+type="checkbox"  блок радио, выбор нескольких пунктов
+typre="file"  
+checked      переключатель выбран по умолчанию
+
+
+<textarea name="text"></textarea>     поле ввода текста
+
+<select> <option value=""></option></select>   выбор из селектора
+
+<button type="">отправить</button>
+type="submit" отправить
+type="reset" очистить форму

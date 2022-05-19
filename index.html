@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>знакомство с html тегами</title>
+</head>
+<body>
+	<form action="#" method="get">
+		<div>
+			<p>Имя</p>
+			<input placeholder="введите ваше имя" tabindex="1" type="text" name="username">
+		</div>
+		<div>
+			<p>Пароль</p>
+			<input placeholder="введите ваш пароль" tabindex="2" type="password" name="userpass">
+		</div>
+		<div>
+			<p>Телефон</p>
+			<input placeholder="номер телефона" tabindex="3" type="tel" name="userphone">
+		</div>
+		<div>
+			<p>Пол</p>
+			<div>
+				<input tabindex="4" checked type="radio" name="gender" value="male"> Мужской
+			</div>
+			<div>
+				<input tabindex="4" type="radio" name="gender" value="female"> Женский
+			</div>
+		</div>
+		<div>
+			<p>Имущество</p>
+			<div>
+				<input tabindex="5" checked type="checkbox" name="bike" value="yes">Велосипед
+			</div>
+			<div>
+				<input tabindex="6" type="checkbox" name="car" value="yes">Машина
+			</div>
+			<div>
+				<input tabindex="7" type="checkbox" name="house" value="yes">Дом
+			</div>
+			<div>
+				<input tabindex="8" disabled type="checkbox" name="another" value="yes">Прочее (пункт для проверки Disabled)
+			</div>
+		</div>
+		<div>
+			<p>Дополнительно</p>
+			<textarea tabindex="9" name="about" placeholder="расскажите о себе">
+			</textarea>
+		</div>
+		<div>
+			<p>Прикрепите фото</p>
+			<input tabindex="10" type="file" name="userfoto">
+		</div>
+		<div>
+			<p>Любимый цвет</p>
+			<select>
+				<option value="red">красный</option>
+				<option selected value="white">белый</option>
+				<option value="black">черный</option>
+				<option value="blue">синий</option>
+			</select>
+		</div>
+		<div>
+			<p>Действия</p>
+			<button type="submit">отправить</button>
+			<button type="reset">очистить</button>
+		</div>
+	</form>
+</body>
+</html>
