@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<h1>Форма</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<form action="#" method="post" enctype="multipart/form-data">
+		<div>
+			<p>Логин</p>
+			<input type="text" name="username" placeholder="ваш логин" tabindex="1">
+		</div>
+		<div>
+			<p>пароль</p>
+			<input type="password" name="userpass" placeholder="ваш пароль" tabindex="2">
+		</div>
+	</form>
+	<h2>Форма 2</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<form action="#" method="get">
+		<p>пол</p>
+		<div>
+			<input type="radio" name="gender" value="male" tabindex="3">Мужской
+		</div>
+		<div>
+			<input type="radio" name="gender" value="female" tabindex="3">Женский
+			<p>Возраст</p>
+			<select>
+				<option value="12-18" selected>12-18</option>
+				<option value="19-35">19-35</option>
+				<option value="36-55">36-55</option>
+				<option value="more">56 и больше</option>
+			</select>
+		</div>
+	</form>
+	<h2>Форма 3</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<form action="#" method="get">
+		<div>
+		<p>марки авто</p>
+			<div><input type="checkbox" name="automodel" value="nissan" tabindex="4">Ниссан</div>
+			<div><input type="checkbox" name="automodel" value="lada" tabindex="5">Лада</div>
+			<div><input type="checkbox" name="automodel" value="BMW" tabindex="6">БМВ</div>
+			<div><input type="checkbox" name="automodel" value="Kia" tabindex="7">Киа</div>
+			<div><input type="checkbox" name="automodel" value="Skoda" tabindex="8">Шкода</div>
+		</div>
+		<div>
+			<p>прикрепите фото</p>
+		<input type="file" name="photo" tabindex="9">
+		</div>
+		<div>
+			<p>Дополнительно</p>
+			<textarea name="about" placeholder="Дополнительная информация"></textarea>
+			<br>
+			<button type="submit">отправить</button>
+			<button type="reset">очистить</button>
+		</div>
+	</form>
+</body>
+</html>
