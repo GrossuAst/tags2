@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<h1>Форма</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<form action="#" method="post">
+		<div>
+			<p>Логин</p>
+			<input type="text" name="username" placeholder="ваш логин" tabindex="1">
+			<p>пароль</p>
+			<input type="password" name="userpass" placeholder="ваш пароль" tabindex="2">
+		</div>
+	</form>
+	<h2>Форма 2</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<form action="#" method="get">
+		<div>
+			<p>Пол</p>
+			<div>
+				<input type="radio" name="gender" value="male" tabindex="3" checked> мужской
+			</div>
+			<div>
+				<input type="radio" name="gender" value="female" tabindex="3"> женский
+			</div>
+		</div>
+		<p>возраст</p>
+		<div>
+			<select>
+				<option value="10-20">10-20</option>
+				<option value="21-30">21-30</option>
+				<option value="31-40">31-40</option>
+				<option value="41-50">41-50</option>
+				<option value="51-60">51-60</option>
+				<option value="61-70">61-70</option>
+				<option value="more">больше</option>
+			</select>
+		</div>
+		<div>
+			<p>выключенный блок для проверки</p>
+				<div><input disabled type="radio" name="test" checked tabindex="4">тест</div>
+				<div><input disabled type="radio" name="test" tabindex="4">тест</div>
+				<div><input disabled type="radio" name="test" tabindex="4">тест</div>
+		</div>
+		<div>
+			<div>
+				<h2>Форма 3</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<p>марки авто</p>
+			<div>
+				<div><input type="checkbox" name="model" value="Mercedes" tabindex="5">Мерседес</div>
+				<div><input type="checkbox" name="model" value="Opel" tabindex="6">Опель</div>
+				<div><input type="checkbox" name="model" value="Mazda" tabindex="7">Мазда</div>
+				<div><input type="checkbox" name="model" value="Peugeot" tabindex="8">Пежо</div>
+				<div><input type="checkbox" name="model" value="Land rover" tabindex="9">Лэнд ровер</div>
+			</div>
+		</div>
+		<div>
+			<h2>Форма 4</h2>
+				<div>
+					<p>прикрепите фото</p>
+					<input type="file" name="photo">
+				</div>
+				<div>
+				<p>Дополнительная информация</p>
+				<textarea name="about" placeholder="о себе"></textarea>
+				</div>
+				<div>
+					<p>Кнопки</p>
+					<button type="submit">отправить</button>
+					<button type="reset">очистить</button>
+				</div>
+		</div>
+	</form>
+</body>
+</html>
